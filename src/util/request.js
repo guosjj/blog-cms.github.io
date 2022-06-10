@@ -4,7 +4,7 @@ import 'nprogress/nprogress.css'
 import {Message} from 'element-ui'
 
 const request = axios.create({
-	baseURL: 'http://localhost:8090/admin/',
+	baseURL: 'http://121.196.111.86:8090/admin/',
 	timeout: 5000
 })
 
